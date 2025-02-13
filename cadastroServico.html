@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Agendamento do Serviço</title>
+</head>
+
+<body>
+    <div class="cadastro">
+        <span>Tipo do Serviço</span>
+        <select id="idTipo">
+            <option value=""></option>
+            <option value="Banho">Banho</option>
+            <option value="Tosa">Tosa</option>
+            <option value="Consulta">Consulta</option>
+        </select>
+
+        <br>
+        <br>
+
+        <span>Nome do Pet</span>
+        <input type="text" id="idNomePet" required>
+
+        <br>
+        <br>
+
+        <span>Espécie</span>
+        <select id="idEspecie">
+            <option value=""></option>
+            <option value="Gato">Gato</option>
+            <option value="Cachorro">Cachorro</option>
+            <option value="Pássaro">Pássaro</option>
+            <option value="Roedor">Roedor</option>
+        </select>
+
+        <br>
+        <br>
+
+        <span>Porte</span>
+        <select id="idPorte">
+            <option value=""></option>
+            <option value="Pequeno">Pequeno</option>
+            <option value="Médio">Médio</option>
+            <option value="Grande">Grande</option>
+        </select>
+
+        <br>
+        <br>
+
+        <span>Endereço</span>
+        <input type="text" id="idEndereco">
+
+        <br>
+        <br>
+
+        <span>Forma de pagamento</span>
+        <select id="idFormaPagamento">
+            <option value=""></option>
+            <option value="Cartão Débito">Cartão Débito</option>
+            <option value="Cartão Crédito">Cartão Crédito</option>
+            <option value="Pix">Pix</option>
+            <option value="Boleto">Boleto</option>
+        </select>
+
+        <br>
+        <br>
+
+        <span>Observação</span>
+        <input type="text" id="idObservacao">
+        <br>
+        <br>
+        <a href="cadastroUsuario.html"><button id="cadastrar_if">Cadastrar Usuário</button></a>
+        <br><br>
+        <button id="idCadServ">Cadastrar Serviço</button>
+    </div>
+</body>
+<script src="scripts/cadastroServico.js"></script>
+</html>
